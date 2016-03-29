@@ -13,5 +13,32 @@ This is collections of JavaScript Programming questions.
    console.log(""+obj);    
 ```
 
- ## Functions 
- * 
+## Functions 
+
+* Function is an Object in JS.
+```javascript
+   function fun(){};
+   fun.myname="I am function"; 
+```
+* What is output?
+
+```javascript
+ var a = 20;
+ function myFun(a){
+    a =10;
+ }
+ myFun(a);
+ console.log(a); 
+```
+
+* What is output?
+   
+```javascript
+ var a = 20;
+ function myFun(a){
+    a =10;
+ }
+ 
+ myFun(a);
+ console.log(a); 
+```
