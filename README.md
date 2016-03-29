@@ -34,11 +34,11 @@ This is collections of JavaScript Programming questions.
 * What is output?
    
 ```javascript
- var a = 20;
+ var a = {key:20};
  function myFun(a){
-    a =10;
+    a.key =10;
  }
  
  myFun(a);
- console.log(a); 
+ console.log(a.key); 
 ```
